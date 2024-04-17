@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    background-color:rgb(239, 239, 239);
+    
+}
+img{
+    width: 3%;
+}
+#rate{
+    font-size: 5vw;
+
+}
+#chu{
+    font-size: 3vw;
+}
+input[type=submit] {  background-color:chocolate;  border: none;  color:aliceblue; 
+     padding: 10px 15px;  text-decoration: none;  margin: 3px 1px;  cursor: pointer;
+    }
+input:hover[type=submit]{
+    background-color: darkkhaki;
+}
+input[type=email] {
+    border:1px solid white ;
+    color:azure;
+    width: 50%;
+    margin-left: auto;
+    padding: 10px 30px;
+    text-align: left;
+}
+
+@media screen and (min-width:1024px){
+    .body,.hinh{
+        float:none;
+    }
+}

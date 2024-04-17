@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex{
+    display: flex;
+    width: 75%;
+}
+.input{
+    height: 50px;
+    width: 100%;
+}
+button{
+    width: 100%;
+    background-color: #2470C2;
+    color: #D1E8FF;
+    height: 50px;
+    font-size: 15pt;
+}
+strong{
+    color: #2470C2;
+    font-size: 20pt;
+}
+.anh{
+    width: 60%;
+    text-align: center;
+}
+img{
+    padding-top: 110px;
+}
+.nd{
+    width: 40%;
+}

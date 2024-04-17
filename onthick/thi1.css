@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkblue;
+    color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 5px;
+
+}
+
+.bok {
+    margin: 10px;
+    /* text-align: center; */
+    font-size: 17px;
+    color: white;
+}
+
+.hd1 {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+}
+
+.hd2 {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    height: 100px;
+    align-items: center;
+}
+
+.ft {
+    padding: 40px;
+}
+
+.nd1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.nd2 {
+    height: 100px;
+    background-color: slategray;
+}
+
+.nd2>p {
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+.nd3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.nd {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 200px 100px 200px;
+}
+
+.nd13 {
+    width: 30%;
+}
+
+.text>.td {
+    font-weight: 600;
+    font-size: 25pt;
+}
+
+.text>button {
+    height: 40px;
+    font-size: 10pt;
+    background-color: blue;
+    color: aliceblue;
+    border: 0px solid;
+}
+
+.text {
+    line-height: 22pt;
+    padding: 30px;
+}
+
+.bt {
+    padding: 10px;
+}
+.bt1{
+    width: 0px;
+    margin-top: 10px;
+}
+.nd13>.td1 {
+    font-weight: 600;
+    font-size: 25pt;
+}
+
+.nd13 {
+    border: 1px solid;
+    line-height: 20pt;
+    padding: 10px;
+}
+
+.nd13>button {
+    height: 30px;
+    font-size: 10pt;
+    background-color: blue;
+    color: aliceblue;
+    border: 0px solid;
+}
+
+.td {
+    padding-bottom: 10px;
+}
+
+.n1 {
+    margin-right: 20px;
+}
+
+.n3 {
+    margin-left: 20px;
+}
+
+.nd2 {
+    margin-top: 50px;
+}
+
+.nd3 {
+    margin-top: 50px;
+}
+
+.td1 {
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .hd {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .nd1,
+    .nd2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nd {
+        margin: 10px 20px 10px 20px;
+    }
+
+    .nd3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nd2>p {
+        padding: 5% ;
+    }
+
+    .nd13 {
+        width: 100%;
+
+    }
+
+    .n3 {
+        margin-left: 0;
+    }
+
+    .n1,
+    .n2,
+    .n3 {
+        margin-right: 20px;
+    }
+
+    .n2,
+    .n3 {
+        margin-top: 20px;
+    }
+}

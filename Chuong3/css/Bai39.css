@@ -1,0 +1,117 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+  body {
+    color: #231f20;
+    font-family: Helvetica,sans-serif;    
+    font-size: 2vw;
+  }
+ 
+  /* Layout */
+  .block {
+    background-color: #f2f2f2;
+    margin: 20px auto;
+    padding: 30px 0 100px;
+    text-align: center;
+    width: 80%;
+    border-radius: 2%;
+  }
+
+
+  .block img {
+    border: 0.2vw solid #de4a1e;
+    border-radius: 50%;
+    display: inline-block;
+    width: 4vw;
+    height: 3vw;
+    margin-bottom: 35px;
+    line-height: 4vw;
+    text-align: center;    
+  }
+
+
+  .block .icon i {
+    color:#de4a1e;
+    font-size: 2.5vw;
+  }
+
+
+  .block h2 {
+    font-size: 3vw;
+    margin-bottom: 30px;
+  }
+
+
+  .block .info {
+    margin-bottom: 25px;
+  }
+
+
+  .block form .email {
+    margin-bottom: 16px;
+  }
+
+
+  .block form input[type=email] {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    padding: 20px 10px;
+    width: 50%;
+    height: 7px;
+    font-size: 2vw;
+  }
+
+
+  .block form button {
+    background-color:#de4a1e;
+    border: 1px solid;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    height: 6vw;
+    padding: 0 30px;
+    font-weight: bold;
+  }
+
+
+  .block form button:hover {
+    background-color:deeppink;
+    border: 1px solid;
+  }
+
+
+  @media screen and (max-width: 640px) {
+      body {
+          font-size: 4vw;
+      }
+
+
+      .block h2 {
+        font-size: 6vw;
+      }
+
+
+      .block .icon {
+        width: 8vw;
+        height: 8vw;
+        line-height: 8vw;
+      }
+
+
+      .block .icon i {
+        font-size: 5vw;
+      }
+      .block form button {
+          height: 10vw;
+      }
+      .block form input[type=email] {
+          padding: 10px 10px;
+          font-size: 4vw;
+          width: 70%;
+      }
+  }

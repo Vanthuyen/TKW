@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BT4</title>
+</head>
+<body style="font-family: 'Times New Roman', Times, serif; color:yellow; width:400px;">
+
+<form action="">
+    <header style="height:50px; background-color:orange; text-align:center;">
+        <h1>Sign Up</h1>
+    
+    </header>
+    <main style="background-color: brown;">
+        
+        <table style="font-size: 20px;">
+            <tr >
+                <td style="width:40%; text-align:right;">
+                    <label for="fname">First Name</label> 
+                </td>
+                <td style="width:60%; text-align:left;">
+                    <input type="text" id="fname" name="fname" placeholder="Enter First Name" required>
+                </td>
+            <tr>
+                <td style="width:40%; text-align:right;">
+                    <label for="lname">Last Name</label>
+                </td>
+                <td style="width:60%; text-align:left;">
+                    <input type="text" id="lname" name="lname" placeholder="Enter Last Name" required>
+                </td>
+            </tr>
+            <tr>
+                <td style="width:40%; text-align:right;">
+                    <label for="bod">Date of Birth</label>
+                </td>
+                <td style="width:60%; text-align:left;">
+                    <select id="dmy" name="dmy">
+                        <option value="Date">Date</option>
+                        <option value="Cd">1</option>
+                        <option value="d">2</option>
+                        <option value="dy">3</option>
+                    </select>
+                    <select id="mm" name="mm">
+                        <option value="Month">Month</option>
+                        <option value="Cd">1</option>
+                        <option value="d">2</option>
+                        <option value="dy">3</option></select>
+                    <select id="yy" name="yy">
+                        <option value="Year">Year</option>
+                        <option value="Cd">1</option>
+                        <option value="d">2</option>
+                        <option value="dy">3</option></select>
+                </td>
+            </tr>
+            <tr>
+                <td style="width:40%; text-align:right;">
+                    <label for="gen">Gender</label>
+                </td>
+                <td style="width:60%; text-align:left;">
+                    <input type="radio" value="male" name="sex" > Male
+        <input type="radio" value="female" name="sex"> Female
+                </td>
+            </tr>
+            <tr>
+                <td style="width:40%; text-align:right;">
+                    <label for="co">Country</label>
+                </td>
+                <td>
+                    <select id="coun" name="coun">
+                        <option value="Country">County</option>
+                        <option value="Country">Anh</option>
+                        <option value="Country">Việt</option>
+                        <option value="Country">Pháp</option>
+                    </select>
+                </td>
+
+            </tr>
+            <tr>
+                <td style="width:40%; text-align:right;">
+                    <label for="email">E-mail</label>
+                </td>
+                <td style="width:60%; text-align:left;">
+                    <input type="Email" id="mail" name="mail" placeholder="Enter E-mail" required>
+                </td>
+            </tr>
+            <tr>
+                <td style="width:40%; text-align:right;">
+                    <label for="phone">Phone</label>
+                </td>
+                <td style="width:60%; text-align:left;">
+                    <input type="number" id="phone" name="phone" placeholder="Enter Phone" required>
+                </td>            
+            </tr>
+            <tr>
+                <td style="width:40%; text-align:right;">
+                    <label for="password">Password</label>
+                </td>
+                <td style="width:60%; text-align:left;">
+                    <input type="Password" id="pass" name="pass" required>
+                </td>
+            </tr>
+            <tr>
+                <td style="width:40%; text-align:right;">
+                    <label for="confirmpassword">Confirm password</label>
+                </td>
+                <td style="width:60%; text-align:left;">
+                    <input type="Password" id="passw" name="passw" required>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td style="width:60%; text-align:left;">
+                    <input type="checkbox" id="check" required>
+                    <label for="check">I agree to the Term of use</label> <br>
+                </td>
+            </tr>
+        </table>
+    </main>
+    <footer style="height:20px; background-color:orange; text-align:right;">
+        <button style="background-color: green; color:azure">Gửi</button>
+        <input type="reset" value="Cancel" style="background-color:red; color:azure">
+    </footer>
+</form>
+</body>
+</html>

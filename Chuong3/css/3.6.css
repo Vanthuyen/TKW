@@ -1,0 +1,36 @@
+body{
+    width: 35%;
+}
+.price{
+    color: red;
+    font-size: 20px;
+}
+hr{
+    border: 1px solid #ebebeb;
+}
+.discount{
+    color: red;
+}
+#nen{
+    border-radius: 5%;
+    border: 1px solid none;
+    padding: 2px;
+    background-color: rgb(69, 91, 240)
+}
+.dd{
+    color: blue;
+    font-weight: bolder;
+}
+#tg{
+    color: white;
+}
+#ps{
+    color: yellow;
+    font-weight: bolder;
+}
+.ch{
+    color: blue
+}
+.rprice{
+    color: #696565;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sigh up</title>
+</head>
+
+<body>
+    <center>
+        <form action="#" method="post">
+        <table style="border-collapse: collapse; border: none; background-color: black;" cellpadding="10" cellspacing="0">
+            <thead style="background-color: darkorange;">
+                <td colspan="2" style="text-align:center; color: yellow;">
+                    <h1>Sign Up</h1> 
+                </td>
+            </thead>
+            <tbody style="color: yellow; background-color: black;text-align:right  ;" >
+                <tr>
+                    <td><label for="fname">First Name</label></td>
+                    <td><input type="text" id="fname" name="fname" placeholder="Enter first name here ... " required></td>
+                </tr>
+                <tr>
+                    <td><label for="lname">Last Name</label></td>
+                    <td><input type="text" id="lname" name="lname" placeholder="Enter last name here ..." required></td>
+                </tr>
+                <tr>
+                    <td><label for="browser">Date of Birth</label></td>
+                    <td><select id="Date" name="Date" required>
+                            <option>Date</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                        </select>
+                    <select id="Month" name="Month" required>
+                            <option>Month</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                        </select>
+                    <select id="Year" name="Year" required>
+                            <option>Year</option>
+                            <option>2002</option>
+                            <option>2003</option>
+                            <option>2004</option>
+                            <option>2005</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td style="text-align: left;">
+                        <input type="radio" value="male" name="sex" checked required> Male
+                        <input type="radio" value="female" name="sex" required> Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Country</td>
+                    <td style="text-align: left;"><select id="ct" name="country" required>
+                            <option>Country</option>
+                            <option>Việt Nam</option>
+                            <option>Thái Lan</option>
+                            <option>Trung Quốc</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>E-mail</td>
+                    <td><input type="email" id="email" name="email" placeholder="Enter E mail" required></td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td><input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="Enter Phone" required></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" id="pwd" name="pwd" required></td>
+                </tr>
+                <tr>
+                    <td>Confirm Password</td>
+                    <td><input type="password" id="pwd" name="pwd" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align:right"><input type="checkbox" name="i agree" value="i agree" required>
+                        <label for="i agree">I Agree to the Terms of use</label>
+                    </td>
+                </tr>
+            </tbody>
+            <tr style="background-color: darkorange;height: 50px ;">
+                <td colspan="2" style="text-align:right;">
+                    <input type="submit" value="Gửi" style="width:30%;color: aliceblue; background-color: chartreuse; border: none;">
+                    <input type="reset" value="Cancel" style="width:30%;color: aliceblue; background-color: red; border: none;">
+                </td>
+            </tr>
+    </center>
+    </table>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex1{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkblue;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.bok{
+    /* width: 100px; */
+    margin: 10px;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+}
+.feature {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: 4rem;
+    font-size: 2rem;
+    background-color: blue;
+    color: aliceblue;
+    margin-bottom: 10px;
+  }
+  /* .text-bg-primary {
+    color: #fff !important;
+    background-color: RGBA(13, 110, 253, var(--bs-bg-opacity, 1)) !important;
+  }
+  .bg-gradient {
+    background-image: var(--bs-gradient) !important;
+  }
+  .text-white {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+  }
+  .rounded-3 {
+    border-radius: var(--bs-border-radius-lg) !important;
+  }
+  .mb-4 {
+    margin-bottom: 1.5rem !important;
+  }
+  .mt-n4 {
+    margin-top: -1.5rem !important;
+  } */
+.bok1{
+    /* padding-left: 100px; */
+}
+.flex11{
+    display: flex;
+    /* flex-direction: row; */
+    /* align-items: center; */
+}
+.flex12{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: flex-end;
+}
+.nd{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding: 50px;
+}
+.td{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 100px;
+    align-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 20pt;
+    font-size: 20px;
+}
+strong{
+    font-size: 20pt;
+}
+.nd1{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.box{
+    width: 30%;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 50px;
+    line-height: 20pt;
+}
+.box1{
+    margin-right: 20px;
+}
+.box3{
+    margin-left: 20px;
+}
+.ndd{
+    align-content: space-around;
+    margin-top: 20px;
+    justify-content: center;    
+}
+footer{
+    background-color: navy;
+    color: white;
+    text-align: center;
+    height: 100px;
+    align-items: center;
+}
+.can{
+    padding: 40px;
+}
+button{
+    height: 5   0px;
+    background-color: blue;
+    color: aliceblue;
+    border: 0px solid;
+    font-size: 15pt;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 768px){
+    .nd1{
+        display: flex;
+        flex-direction: column;
+    }
+    .box{
+        width: 100%;
+    }
+    .flex1{
+        display: flex;
+        flex-direction: column;
+    }
+    .td{
+        margin: 20px;
+    }
+    .box1{
+        margin-right: 0;
+    }
+    .box3{
+        margin-left: 0;
+    }
+    .ndd{
+        margin-left: 50px;
+        margin-right: 50px;
+    
+    }
+    .nd1{
+        padding: 0;
+    }
+    .box{
+        padding: 10px;
+    }
+}

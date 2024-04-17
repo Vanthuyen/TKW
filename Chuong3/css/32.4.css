@@ -1,0 +1,47 @@
+.flex-container{
+    background-color: brown;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+.flex{
+    text-align: center;
+}
+.box {
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.flex-container2{
+    display: flex;
+    flex-direction: column;
+}
+.box1{
+    margin-left: 50%;
+}
+.box2{
+    flex-grow: 2;
+    background-color: yellow;
+}
+.box3{
+    flex-grow: 8;
+    background-color: aqua;
+}
+.box4{
+    flex-grow: 2;
+    background-color: violet;
+}
+.box5{
+    margin-left: 50%;
+}
+.flex-container3{
+    background-color: green;
+}
+@media only screen and (max-width: 768px ) {
+    .flex-container2{
+        display: flex;
+        flex-direction: column;
+    }
+}

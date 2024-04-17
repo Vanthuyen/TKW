@@ -1,0 +1,49 @@
+.id{
+    width: 80%;
+    height: 400px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.box1{
+    width: 70%;
+    font-size: 20pt;
+    margin: 10px 10px 10px 10px;
+}
+div.box1>img{
+    height: 90%;
+    width: 100%;
+}
+.box2{
+    width: 30%;
+    /* align-items: flex-start; */
+    height: 100%;
+}
+.h{
+    display: flex;
+    /* align-items: flex-start; */
+    width: 100%;
+    margin: 10px 20px 20px 20px;
+    align-content: space-around;
+} 
+.a{
+    width: 30%;
+    height: 100%;
+}
+.can{
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 768px ) {
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .box1 , .box2{
+        width: 100%;
+    }
+
+}

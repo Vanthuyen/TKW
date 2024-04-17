@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    width: 35%;
+    align-content: center;
+}
+.flex2{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 20px 20px 20px 20px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 75%;
+}
+body{
+    background-color: #c8e8e9;
+}
+strong{
+    color: #3e2093;
+    font-size: 20px;
+}
+.a2, .a3 {
+    color: #afafb6;
+}
+button{
+    width: 15%;
+    background-color: #3e2093;
+    color: aliceblue;
+    height: 40px;
+    border-radius: 10%;
+
+}
+.input{
+    height: 45px;
+    width: 100%;
+}
+i{
+    color: #3e2093;
+}
+@media only screen and (max-width: 768px ) {
+    .flex{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .flex1{
+        display: flex;
+        flex-direction: row;
+        align-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 414px ) {
+    .flex{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .flex1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+

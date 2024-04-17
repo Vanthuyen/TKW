@@ -1,0 +1,20 @@
+table{
+    width: 70%;
+    height: 400px;
+}
+#pt{
+    width: 100%;
+}
+.price{
+    font-weight: bolder;
+}
+.dprice{
+    text-decoration: line-through;
+    color: #696565
+}
+#discount{
+    color: red;
+}
+.tdd{
+    vertical-align: top;
+}

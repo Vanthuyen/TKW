@@ -1,0 +1,18 @@
+table, td {
+    text-align: left;
+    vertical-align: top;
+}
+img {
+    width: 30 px;
+    height: 30px;
+}
+span {
+    font-weight: bold ;
+}
+#chosen {
+    color: rgb(12, 133, 225)
+}
+.point {
+    width: 20px;
+    height: auto;
+}

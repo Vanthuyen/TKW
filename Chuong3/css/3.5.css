@@ -1,0 +1,23 @@
+#rate {
+    width:15px;
+    height: auto;
+}
+.colorphone {
+    width: 35px;
+    height: auto;
+}
+tr, td {
+    vertical-align: middle;
+}
+.discount {
+    border-radius: 10%;
+    border: 1px solid none;
+    padding: 2px;
+    background-color: rgb(207, 207, 207);
+}
+.quantity {
+    color: rgb(99, 99, 99);
+}
+table {
+    width: 350px;
+}
